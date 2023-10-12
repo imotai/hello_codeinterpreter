@@ -1,5 +1,6 @@
 # hello_codeinterpreter
 
 ```
-pip -r reqirements.txt
+pip install requirements.txt
 ```
+
