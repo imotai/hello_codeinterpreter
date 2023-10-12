@@ -23,7 +23,8 @@ import requests
 
 logger = logging.getLogger(__name__)
 
-class CodellamaClient():
+
+class CodellamaClient:
 
     def __init__(self, endpoint, key, prefix, ai_name, user_name, grammar):
         self.api = endpoint + "/completion"
@@ -54,4 +55,3 @@ class CodellamaClient():
         }
         response = requests.post(self.api, data=json.dumps(data))
         return response.json()
-

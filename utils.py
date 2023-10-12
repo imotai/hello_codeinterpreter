@@ -13,6 +13,7 @@ import io
 
 USE_SHELL = sys.platform.startswith("win")
 
+
 def run_with_realtime_print(
     command, universal_newlines=True, useshell=USE_SHELL, env=os.environ
 ):
